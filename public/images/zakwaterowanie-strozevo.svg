@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Zakwaterowanie w Strożewie</title>
+  <desc id="desc">Jasne domki noclegowe po obu stronach żwirowej alejki, ze stolikami i zielenią.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#b8d1d0"/><stop offset="1" stop-color="#eef0dd"/></linearGradient>
+    <linearGradient id="gravel" x2="0" y2="1"><stop stop-color="#b8ad91"/><stop offset="1" stop-color="#ded2b6"/></linearGradient>
+    <pattern id="stones" width="40" height="28" patternUnits="userSpaceOnUse"><circle cx="5" cy="8" r="2" fill="#958a74" opacity=".45"/><circle cx="24" cy="18" r="2.5" fill="#f3e6ca"/><circle cx="35" cy="5" r="1.5" fill="#837963" opacity=".4"/><circle cx="11" cy="25" r="1.3" fill="#fff4db"/></pattern>
+  </defs>
+  <rect width="1200" height="760" fill="url(#sky)"/>
+  <circle cx="1000" cy="120" r="58" fill="#f5e4b9" opacity=".8"/>
+  <path d="M0 340Q260 285 520 340T1200 318V760H0Z" fill="#6f825c"/>
+  <path d="M0 412Q260 380 600 424T1200 390V760H0Z" fill="#87936b"/>
+  <g fill="#526949"><circle cx="75" cy="310" r="74"/><circle cx="185" cy="294" r="61"/><circle cx="1060" cy="302" r="76"/><circle cx="1150" cy="323" r="63"/></g>
+  <g fill="#aec28d"><circle cx="73" cy="287" r="43"/><circle cx="190" cy="273" r="39"/><circle cx="1065" cy="279" r="45"/><circle cx="1155" cy="305" r="37"/></g>
+  <!-- Matching rows of simple, comfortable cabins -->
+  <g stroke="#d4c7aa" stroke-width="5">
+    <g><path d="M62 370V240L207 190V370Z" fill="#f2eee1"/><path d="M47 243l159-62 19 18-160 64Z" fill="#89755e"/><rect x="91" y="279" width="48" height="91" fill="#657363"/><rect x="156" y="257" width="35" height="43" fill="#a8c4c2"/></g>
+    <g><path d="M284 398V274L421 229V398Z" fill="#e9e4d5"/><path d="M268 278l151-54 17 17-152 56Z" fill="#89755e"/><rect x="313" y="310" width="43" height="88" fill="#657363"/><rect x="370" y="288" width="34" height="40" fill="#a8c4c2"/></g>
+    <g><path d="M1139 371V240L994 190V371Z" fill="#f2eee1"/><path d="M1154 243l-159-62-19 18 160 64Z" fill="#89755e"/><rect x="1062" y="279" width="48" height="92" fill="#657363"/><rect x="1010" y="257" width="35" height="43" fill="#a8c4c2"/></g>
+    <g><path d="M916 398V274L779 229V398Z" fill="#e9e4d5"/><path d="M932 278l-151-54-17 17 152 56Z" fill="#89755e"/><rect x="857" y="310" width="43" height="88" fill="#657363"/><rect x="809" y="288" width="34" height="40" fill="#a8c4c2"/></g>
+  </g>
+  <!-- Gravel lane leading between the cabins -->
+  <path d="M420 404H780L1110 760H90Z" fill="url(#gravel)"/><path d="M420 404H780L1110 760H90Z" fill="url(#stones)" opacity=".8"/>
+  <path d="M417 406L91 760M783 406l327 354" fill="none" stroke="#e8dfc9" stroke-width="9" opacity=".75"/>
+  <!-- Outdoor tables alongside the path -->
+  <g stroke="#715c45" stroke-width="7" stroke-linecap="round"><path d="M232 480h117m-105 0-17 58m97-58 18 58m-98-25h87"/><path d="M849 477h117m-105 0-17 58m97-58 18 58m-98-25h87"/></g>
+  <g fill="#9d7752"><ellipse cx="290" cy="480" rx="64" ry="12"/><ellipse cx="907" cy="477" rx="64" ry="12"/></g>
+  <g fill="#f4eee1"><circle cx="260" cy="465" r="9"/><circle cx="286" cy="462" r="9"/><circle cx="881" cy="462" r="9"/><circle cx="910" cy="459" r="9"/></g>
+  <g fill="#456044"><circle cx="27" cy="408" r="32"/><circle cx="1180" cy="413" r="36"/><circle cx="387" cy="417" r="23"/><circle cx="814" cy="413" r="25"/></g>
+</svg>
